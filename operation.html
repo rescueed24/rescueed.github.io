@@ -24,12 +24,18 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
-    <body>
-    <iframe src="header.html" frameborder="0"></iframe>
-        <main>
-            <h1>活動報告</h1>
+<body>
+    <header>
+        <!--
+            <iframe src="header.html" frameborder="0"></iframe> -->
+        <midashi>
+            <p>活動報告</p>
+        </midashi>
+        <midashi-desc>
             <p>こちらは活動報告のページです。</p>
-        </main>
+        </midashi-desc>
+    </header>
+    <main></main>
 
     <!-- fotterを別ファイルから同期 -->
     <footer>
@@ -38,14 +44,19 @@
 
     <style>
         footer iframe {
-            width: 100%; /* 横幅をページ全体に広げる */
-            height: auto; /* 高さは自動調整 */
-            border: none; /* 枠線を非表示 */
-            overflow: hidden; /* スクロールバーを非表示 */
+            width: 100%;
+            /* 横幅をページ全体に広げる */
+            height: auto;
+            /* 高さは自動調整 */
+            border: none;
+            /* 枠線を非表示 */
+            overflow: hidden;
+            /* スクロールバーを非表示 */
         }
 
         footer {
-            text-align: center; /* フッター内の文字をセンタリング */
+            text-align: center;
+            /* フッター内の文字をセンタリング */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -53,5 +64,6 @@
         }
     </style>
 
-    </body>
+</body>
+
 </html>

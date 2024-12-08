@@ -4,6 +4,28 @@ html {
     font-size: 100%;
 }
 
+midashi {
+    text-align: center;
+    font-size: 40px;
+    color: #1a9bd1;
+}
+
+midashi_name {
+    text-align: center;
+    font-size: 40px;
+    color: #004a6d;
+}
+
+midashi-desc {
+    text-align: center;
+    color: #000;
+}
+
+.line {
+    border-bottom: 2px solid #000;
+    margin: 5px 0;
+}
+
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
@@ -11,24 +33,27 @@ body {
 
 /* レイアウト */
 main {
-    width: 940px;
+    width: 80%;
     margin: 3rem auto 4rem;
 }
 
 main h1 {
     padding: 5px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 1.8em;
+    color: #1a9bd1;
 }
 
 main h2 {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 15px;
+    color: #1a9bd1;
 }
 
 main h3 {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 5px;
+    color: #1a9bd1;
 }

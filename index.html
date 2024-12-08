@@ -25,8 +25,19 @@
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <iframe src="header.html" frameborder="0"></iframe>
+    <main>
+        <midashi>
+            <p>金沢工業大学所属 学生団体</p>
+        </midashi>
+        <midashi_name>
+            <p>RescueEd</p>
+        </midashi_name>
+        <h1>はじめに</h1>
+        <p>このサイトは金沢工業大学の非公認学生団体である「RescueEd(レスキュード)」の活動内容やお知らせ等を公表するものです。<br>詳しくは「About」に記載してありますのでそちらをご覧ください。</p>
+        <p class=line></p>
+        <h1>更新履歴</h1>
+    </main>
 
     <!-- fotterを別ファイルから同期 -->
     <footer>
@@ -35,14 +46,19 @@
 
     <style>
         footer iframe {
-            width: 100%; /* 横幅をページ全体に広げる */
-            height: auto; /* 高さは自動調整 */
-            border: none; /* 枠線を非表示 */
-            overflow: hidden; /* スクロールバーを非表示 */
+            width: 100%;
+            /* 横幅をページ全体に広げる */
+            height: auto;
+            /* 高さは自動調整 */
+            border: none;
+            /* 枠線を非表示 */
+            overflow: hidden;
+            /* スクロールバーを非表示 */
         }
 
         footer {
-            text-align: center; /* フッター内の文字をセンタリング */
+            text-align: center;
+            /* フッター内の文字をセンタリング */
             display: flex;
             justify-content: center;
             align-items: center;
